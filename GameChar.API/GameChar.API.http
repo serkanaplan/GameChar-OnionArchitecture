@@ -1,0 +1,6 @@
+@GameChar.API_HostAddress = http://localhost:5155
+
+GET {{GameChar.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

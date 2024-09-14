@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "GameChar.API.Controllers.CharacterController",
+    "Method": "GetAll",
+    "RelativePath": "api/Character",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameChar.API.Controllers.CharacterController",
+    "Method": "Create",
+    "RelativePath": "api/Character",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "GameChar.Application.CQRS.Commands.CharacterCommand.Create.CreateCharacterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameChar.API.Controllers.CharacterController",
+    "Method": "Update",
+    "RelativePath": "api/Character",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "GameChar.Application.CQRS.Commands.CharacterCommand.Update.UpdateCharacterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameChar.API.Controllers.CharacterController",
+    "Method": "GetById",
+    "RelativePath": "api/Character/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GameChar.API.Controllers.CharacterController",
+    "Method": "Delete",
+    "RelativePath": "api/Character/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
